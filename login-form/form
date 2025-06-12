@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログインフォーム</title>
+  </head>
+
+  <body>
+    <h1>ログインフォーム</h1>
+    <form action="#" method="post">
+      <dl>
+        <dt>
+          <label for="username">ユーザーネーム</label>
+        </dt>
+        <dd>
+          <input id="username" type="text" required>
+        </dd>
+        <dt>
+          <label for="password">パスワード</label>
+        </dt>
+        <dd>
+          <input id="password" type="password" required>
+        </dd>
+      </dl>
+      <input type="submit" name="submit" value="送信">
+    </form>
+  </body>
+
+</html>
